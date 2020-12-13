@@ -1,2 +1,2 @@
 # ProjectBackbone
-Copy of Project files for HackGT 2020
+This Project represents a copy of the final submission for HackGT 2020 from Ryan Sequeira, Quentin Mot, Gabriel Armstrong, and Katrina Jurczyk. Project Backbone is a concept dedicated to highlighted local, small businesses. It functions as a search engine/directory backed by user generated content informing others of a variety of small businesses. A demo of the website and more information can be found at this [link](https://devpost.com/software/project-backbone-pbnyr8).
