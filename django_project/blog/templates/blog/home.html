@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" style="color: #095218" href="./{{post.store_type|cut:' '}}">{{ post.store_type }}</a>
+              <small class="text-muted">{{ post.date_posted }}</small>
+            </div>
+            <h2>
+              <a class="article-title" style="color: #095218" href="./{{post.title|cut:' '}}">{{ post.title }}</a>
+            </h2>
+            <p class="article-content" style="color: #095218">{{ post.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

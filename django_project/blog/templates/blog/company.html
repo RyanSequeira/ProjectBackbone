@@ -1,0 +1,10 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    {% for post in posts %}
+    	{% if title %}
+        <title>Project Backbone - {{ title }}</title>
+    	{% else %}
+        <title>Project Backbone</title>
+    	{% endif %}
+    {% endfor %}
+{% endblock content %}
